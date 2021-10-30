@@ -1,0 +1,13 @@
+{
+  "name": "Welcome",
+  "version": "0.01",
+  "description": "--",
+  "content_scripts": [
+    {
+      "matches": ["*://example.com/*"],
+      "js":["welcome.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version":2
+}
